@@ -5,6 +5,7 @@ from datetime import timedelta
 import random
 import time
 
+#Change Password and Database as per the password of the of the user in MySQL and the database used. 
 mydb=mysql.connector.connect(host="localhost", user="root", password="*******", database="dbmsproject")
 
 cur=mydb.cursor()
