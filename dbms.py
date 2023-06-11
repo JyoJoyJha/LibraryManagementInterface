@@ -5,7 +5,7 @@ from datetime import timedelta
 import random
 import time
 
-mydb=mysql.connector.connect(host="localhost", user="root", password="saanjysh", database="dbmsproject")
+mydb=mysql.connector.connect(host="localhost", user="root", password="*******", database="dbmsproject")
 
 cur=mydb.cursor()
 
